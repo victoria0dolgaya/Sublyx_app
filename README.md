@@ -1,6 +1,86 @@
 # Sublyx
 
-A React Native Expo app for tracking subscriptions and managing personal finances.
+## Project Overview
+Sublyx is a mobile application developed as a bachelor's diploma project for managing personal subscriptions and recurring expenses.
+The application helps users monitor active subscriptions, track upcoming payments, analyse spending habits, and manage subscription-related information in a convenient and user-friendly interface.
+The system provides secure authentication, payment tracking, analytics visualization, profile management, multilingual support, and personalized user settings.
+
+## Core Functionality
+
+### Subscription Management
+
+- Add new subscriptions
+- Edit existing subscriptions
+- Delete subscriptions
+- Configure billing cycles
+- Set reminder preferences
+
+### Payment Tracking
+
+- View upcoming payments
+- Track subscription renewal dates
+- Monitor recurring expenses
+
+### Analytics
+
+- Spending analytics by category
+- Subscription distribution charts
+- Payment statistics and insights
+
+### User Profile
+
+- Profile editing
+- Avatar upload
+- Password reset
+- Theme preferences
+- Language preferences
+
+### Authentication
+
+- User registration
+- Secure login
+- Password recovery
+- Account deletion
+
+## Technology Stack
+
+### Frontend
+
+- React Native
+- Expo
+- TypeScript
+
+### Backend Services
+
+- Supabase Authentication
+- Supabase Database
+- Supabase Storage
+- Supabase Edge Functions
+
+### Database
+
+- PostgreSQL (Supabase)
+
+### Development Tools
+
+- VS Code
+- Git
+- GitHub
+
+## Application Screens
+
+The application consists of the following main screens:
+
+- Dashboard
+- Subscriptions
+- Calendar
+- Analytics
+- Profile
+- Login & Registration
+- Password Recovery
+- Reminder Preferences
+- Privacy Policy
+- Help Center
 
 ## Getting Started
 
@@ -53,3 +133,21 @@ To deploy the edge function:
 - Ensure Expo CLI is installed.
 - For Android/iOS, you can use the Expo Go app on your physical device or set up the respective emulators.
 - Ensure your Supabase instance matches the schema provided in `schema.sql`.
+
+## Future Improvements
+
+- Push notifications
+- Google Authentication
+- Shared subscriptions
+- AI-powered spending insights
+- Export reports to PDF
+- Budget planning tools
+
+
+## Author
+
+Viktoriia Dolha
+Bachelor's Degree Project
+Software Engineering
+Simon Kuznets Kharkiv National University of Economics
+2026
