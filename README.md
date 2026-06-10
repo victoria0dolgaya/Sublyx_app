@@ -4,6 +4,7 @@
 Sublyx is a mobile application developed as a bachelor's diploma project for managing personal subscriptions and recurring expenses.
 The application helps users monitor active subscriptions, track upcoming payments, analyse spending habits, and manage subscription-related information in a convenient and user-friendly interface.
 The system provides secure authentication, payment tracking, analytics visualization, profile management, multilingual support, and personalized user settings.
+##
 
 ## Core Functionality
 
