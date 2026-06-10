@@ -4,8 +4,8 @@
 Sublyx is a mobile application developed as a bachelor's diploma project for managing personal subscriptions and recurring expenses.
 The application helps users monitor active subscriptions, track upcoming payments, analyse spending habits, and manage subscription-related information in a convenient and user-friendly interface.
 The system provides secure authentication, payment tracking, analytics visualization, profile management, multilingual support, and personalized user settings.
-##
 
+##
 ## Core Functionality
 
 ### Subscription Management
@@ -43,6 +43,7 @@ The system provides secure authentication, payment tracking, analytics visualiza
 - Password recovery
 - Account deletion
 
+##
 ## Technology Stack
 
 ### Frontend
@@ -68,6 +69,7 @@ The system provides secure authentication, payment tracking, analytics visualiza
 - Git
 - GitHub
 
+##
 ## Application Screens
 
 The application consists of the following main screens:
@@ -83,6 +85,7 @@ The application consists of the following main screens:
 - Privacy Policy
 - Help Center
 
+##
 ## Getting Started
 
 1. **Install dependencies**:
@@ -102,6 +105,7 @@ The application consists of the following main screens:
    npx expo start
    ```
 
+##
 ## Features
 
 - Add, edit, and delete subscriptions with custom billing cycles
@@ -113,6 +117,7 @@ The application consists of the following main screens:
 - Avatar upload support via Supabase Storage
 - Real permanent account deletion (via Supabase Edge Functions)
 
+##
 ## Supabase Edge Functions
 
 The **Delete Account** feature completely removes the user from Supabase Authentication. It relies on a secure Supabase Edge Function to protect your Service Role Key from being exposed in the app.
@@ -129,12 +134,14 @@ To deploy the edge function:
    ```
 *Important: Never place the Service Role Key directly inside the React Native application. Only add it as a secret to your deployed Edge Function.*
 
+##
 ## Troubleshooting
 
 - Ensure Expo CLI is installed.
 - For Android/iOS, you can use the Expo Go app on your physical device or set up the respective emulators.
 - Ensure your Supabase instance matches the schema provided in `schema.sql`.
 
+##
 ## Future Improvements
 
 - Push notifications
@@ -144,7 +151,7 @@ To deploy the edge function:
 - Export reports to PDF
 - Budget planning tools
 
-
+##
 ## Author
 
 Viktoriia Dolha
